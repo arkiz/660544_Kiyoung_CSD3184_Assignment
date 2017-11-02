@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{C1E697F0-2400-48F2-B9C3-0F274EF60576}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="660544_Kiyoung_CSD3184_Assignment/MainActivity.cs">
+    <Files>
+      <File FileName="660544_Kiyoung_CSD3184_Assignment/MainActivity.cs" Line="20" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.660544__Kiyoung__CSD3184__Assignment PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>
