@@ -75,16 +75,50 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashActivity.cs" />
+    <Compile Include="VisitedCountries_Activity.cs" />
+    <Compile Include="NextVacations_Activity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
+    <None Include="Resources\drawable\images\21c8065.png" />
+    <None Include="Resources\drawable\images\66d9df7512883.560acc537c41a.jpg" />
+    <None Include="Resources\drawable\images\about-banner.png" />
+    <None Include="Resources\drawable\images\best_promotion.jpg" />
+    <None Include="Resources\drawable\images\bg_travel-globe_01.png" />
+    <None Include="Resources\drawable\images\big_new_traveler.png" />
+    <None Include="Resources\drawable\images\rsz_1bg_travel-globe_01.png" />
+    <None Include="Resources\drawable\images\rsz_bg_travel-globe_01.png" />
+    <None Include="Resources\drawable\images\rsz_big_new_traveler.png" />
+    <None Include="Resources\drawable\images\student_travels.jpg" />
+    <None Include="Resources\drawable\images\traveler.png" />
+    <None Include="Resources\drawable\images\world-landmarks-collection_1010-470.jpg" />
+    <None Include="Resources\drawable\images\best_seller\Yukon-Aurora.jpg" />
+    <None Include="Resources\drawable\images\best_seller\alberta.jpg" />
+    <None Include="Resources\drawable\images\best_seller\cruising-Alaska.jpg" />
+    <None Include="Resources\drawable\images\best_seller\great_white_bear.jpg" />
+    <None Include="Resources\drawable\images\best_seller\niagara_falls.jpg" />
+    <None Include="Resources\drawable\images\best_seller\nova_scotia.jpg" />
+    <None Include="Resources\drawable\images\best_seller\quebec.jpg" />
+    <None Include="Resources\drawable\images\best_seller\tntower_EdgeWalk.jpg" />
+    <None Include="Resources\drawable\images\best_seller\toronto_syline.jpg" />
+    <None Include="Resources\drawable\images\best_seller\vancouver.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\layout\SplashLayout.axml" />
+    <AndroidResource Include="Resources\drawable\travel_globe.png" />
+    <AndroidResource Include="Resources\layout\toolbar.axml" />
+    <AndroidResource Include="Resources\drawable\traveler.png" />
+    <AndroidResource Include="Resources\Menu\home.xml" />
+    <AndroidResource Include="Resources\drawable\icon_travel_globe.png" />
+    <AndroidResource Include="Resources\Menu\popup_menu.xml" />
+    <AndroidResource Include="Resources\drawable\travel_places_footer.png" />
+    <AndroidResource Include="Resources\layout\countriesList.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />
@@ -93,6 +127,7 @@
     <Folder Include="Resources\mipmap-xxhdpi\" />
     <Folder Include="Resources\mipmap-xxxhdpi\" />
     <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\Menu\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.3\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.3\build\Xamarin.Build.Download.targets')" />

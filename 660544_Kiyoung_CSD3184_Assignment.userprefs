@@ -1,7 +1,12 @@
 ﻿<Properties StartupConfiguration="{C1E697F0-2400-48F2-B9C3-0F274EF60576}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="660544_Kiyoung_CSD3184_Assignment/MainActivity.cs">
     <Files>
-      <File FileName="660544_Kiyoung_CSD3184_Assignment/MainActivity.cs" Line="20" Column="3" />
+      <File FileName="660544_Kiyoung_CSD3184_Assignment/SplashActivity.cs" Line="1" Column="1" />
+      <File FileName="660544_Kiyoung_CSD3184_Assignment/MainActivity.cs" Line="28" Column="48" />
+      <File FileName="660544_Kiyoung_CSD3184_Assignment/Resources/Menu/home.xml" Line="1" Column="1" />
+      <File FileName="660544_Kiyoung_CSD3184_Assignment/Resources/Menu/popup_menu.xml" Line="1" Column="1" />
+      <File FileName="660544_Kiyoung_CSD3184_Assignment/VisitedCountries_Activity.cs" Line="1" Column="1" />
+      <File FileName="660544_Kiyoung_CSD3184_Assignment/NextVacations_Activity.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
