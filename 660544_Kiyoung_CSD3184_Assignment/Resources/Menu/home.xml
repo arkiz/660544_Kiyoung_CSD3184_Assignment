@@ -8,9 +8,9 @@
  <item
       android:id="@+id/visited_countries"
       android:showAsAction="always"
-      android:title="Visited Countries" />
+      android:title="Visited Countries"/>
  <item
       android:id="@+id/next_vacations"
       android:showAsAction="always"
-      android:title="Next Vacation" />
+      android:title="Next Vacation"/>
 </menu>

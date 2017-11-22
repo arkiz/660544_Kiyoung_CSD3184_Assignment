@@ -78,6 +78,8 @@
     <Compile Include="SplashActivity.cs" />
     <Compile Include="VisitedCountries_Activity.cs" />
     <Compile Include="NextVacations_Activity.cs" />
+    <Compile Include="TableItem.cs" />
+    <Compile Include="HomeScreenAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -118,7 +120,14 @@
     <AndroidResource Include="Resources\drawable\icon_travel_globe.png" />
     <AndroidResource Include="Resources\Menu\popup_menu.xml" />
     <AndroidResource Include="Resources\drawable\travel_places_footer.png" />
-    <AndroidResource Include="Resources\layout\countriesList.axml" />
+    <AndroidResource Include="Resources\layout\listView.axml" />
+    <AndroidResource Include="Resources\drawable\ca.png" />
+    <AndroidResource Include="Resources\drawable\ch.png" />
+    <AndroidResource Include="Resources\drawable\fr.png" />
+    <AndroidResource Include="Resources\drawable\it.png" />
+    <AndroidResource Include="Resources\drawable\kr.png" />
+    <AndroidResource Include="Resources\layout\virtualList.axml" />
+    <AndroidResource Include="Resources\layout\listScreen.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />

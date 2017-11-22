@@ -58,10 +58,12 @@ namespace _Kiyoung_CSD3184_Assignment
 
             toolbar.InflateMenu(Resource.Menu.home);
             toolbar.MenuItemClick += (sender, e) => {
-                if(e.Item.ItemId.ToString() == "visited_countries") {
+                Toast.MakeText(this, e.Item.TitleFormatted.ToString(), ToastLength.Short).Show();
+            
+                if(e.Item.TitleFormatted.ToString() == "Visited Countries") {
                     StartActivity(new Intent(Application.Context, typeof(VisitedCountries_Activity)));
-                } else if ( e.Item.ItemId.ToString() == "next_vacations"){
-                    StartActivity(new Intent(Application.Context, typeof(NextVacation_Activity)));
+                } else if ( e.Item.TitleFormatted.ToString() == "Next Vacation"){
+                    StartActivity(new Intent(Application.Context, typeof(NextVacations_Activity)));
 
                 }
             };
