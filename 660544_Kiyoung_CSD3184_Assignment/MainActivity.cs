@@ -15,7 +15,8 @@ DUE DATE:
 
     3. The introduction page should have a menu containing two options. 
         First, to display the list of locations visited by the blogger. 
-        Second, to display the list of next vacation destinations. Third, to contact the blogger.
+        Second, to display the list of next vacation destinations. 
+        Third, to contact the blogger.
         
 4. When list of locations visited and / or next vacation destinations is selected from the options
     , it should display the list view containing image and name of the place. 
