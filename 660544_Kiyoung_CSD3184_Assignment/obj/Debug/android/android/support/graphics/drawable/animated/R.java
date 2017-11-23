@@ -1878,6 +1878,7 @@ containing a value of this type.
         public static final int checkbox=0x7f0a003e;
         public static final int chronometer=0x7f0a006b;
         public static final int collapseActionView=0x7f0a001e;
+        public static final int contact=0x7f0a007a;
         public static final int contentPanel=0x7f0a0031;
         public static final int custom=0x7f0a0038;
         public static final int customPanel=0x7f0a0037;
@@ -1904,11 +1905,10 @@ containing a value of this type.
         public static final int list_item=0x7f0a002b;
         public static final int main_content=0x7f0a005c;
         public static final int media_actions=0x7f0a0065;
-        public static final int menu_share=0x7f0a0078;
         public static final int middle=0x7f0a001c;
         public static final int multiply=0x7f0a0014;
         public static final int never=0x7f0a0020;
-        public static final int next_vacations=0x7f0a007a;
+        public static final int next_vacations=0x7f0a0079;
         public static final int none=0x7f0a000e;
         public static final int normal=0x7f0a000a;
         public static final int notification_background=0x7f0a006e;
@@ -1966,7 +1966,7 @@ containing a value of this type.
         public static final int txt_traveler_desc=0x7f0a005e;
         public static final int up=0x7f0a0008;
         public static final int useLogo=0x7f0a0012;
-        public static final int visited_countries=0x7f0a0079;
+        public static final int visited_countries=0x7f0a0078;
         public static final int withText=0x7f0a0021;
         public static final int wrap_content=0x7f0a0019;
     }
@@ -2028,7 +2028,6 @@ containing a value of this type.
         public static final int splashlayout=0x7f030030;
         public static final int support_simple_spinner_dropdown_item=0x7f030031;
         public static final int toolbar=0x7f030032;
-        public static final int virtuallist=0x7f030033;
     }
     public static final class menu {
         public static final int home=0x7f0c0000;

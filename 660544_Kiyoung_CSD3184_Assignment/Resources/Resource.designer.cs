@@ -1795,6 +1795,9 @@ namespace _Kiyoung_CSD3184_Assignment
 			// aapt resource value: 0x7f0a001e
 			public const int collapseActionView = 2131361822;
 			
+			// aapt resource value: 0x7f0a007a
+			public const int contact = 2131361914;
+			
 			// aapt resource value: 0x7f0a0031
 			public const int contentPanel = 2131361841;
 			
@@ -1873,9 +1876,6 @@ namespace _Kiyoung_CSD3184_Assignment
 			// aapt resource value: 0x7f0a0065
 			public const int media_actions = 2131361893;
 			
-			// aapt resource value: 0x7f0a0078
-			public const int menu_share = 2131361912;
-			
 			// aapt resource value: 0x7f0a001c
 			public const int middle = 2131361820;
 			
@@ -1885,8 +1885,8 @@ namespace _Kiyoung_CSD3184_Assignment
 			// aapt resource value: 0x7f0a0020
 			public const int never = 2131361824;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int next_vacations = 2131361914;
+			// aapt resource value: 0x7f0a0079
+			public const int next_vacations = 2131361913;
 			
 			// aapt resource value: 0x7f0a000e
 			public const int none = 2131361806;
@@ -2059,8 +2059,8 @@ namespace _Kiyoung_CSD3184_Assignment
 			// aapt resource value: 0x7f0a0012
 			public const int useLogo = 2131361810;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int visited_countries = 2131361913;
+			// aapt resource value: 0x7f0a0078
+			public const int visited_countries = 2131361912;
 			
 			// aapt resource value: 0x7f0a0021
 			public const int withText = 2131361825;
@@ -2258,9 +2258,6 @@ namespace _Kiyoung_CSD3184_Assignment
 			
 			// aapt resource value: 0x7f030032
 			public const int toolbar = 2130903090;
-			
-			// aapt resource value: 0x7f030033
-			public const int virtualList = 2130903091;
 			
 			static Layout()
 			{

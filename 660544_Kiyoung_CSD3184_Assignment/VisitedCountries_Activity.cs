@@ -6,6 +6,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -13,7 +14,8 @@ using Android.Widget;
 
 namespace _Kiyoung_CSD3184_Assignment
 {
-    [Activity(Label = "VisitedCountries_Activity")]
+    [Activity(Label = "VisitedCountries_Activity",
+              LaunchMode = LaunchMode.SingleInstance)]
     public class VisitedCountries_Activity : Activity
     {
 
@@ -51,14 +53,21 @@ namespace _Kiyoung_CSD3184_Assignment
             toolbar.MenuItemClick += (sender, e) => {
                 Toast.MakeText(this, e.Item.TitleFormatted.ToString(), ToastLength.Short).Show();
 
-                if (e.Item.TitleFormatted.ToString() == "Visited Countries")
+                if (e.Item.TitleFormatted.ToString() == "home")
+                {
+                    StartActivity(new Intent(Application.Context, typeof(MainActivity)));
+                }
+                else if (e.Item.TitleFormatted.ToString() == "Visited Countries")
                 {
                     StartActivity(new Intent(Application.Context, typeof(VisitedCountries_Activity)));
                 }
                 else if (e.Item.TitleFormatted.ToString() == "Next Vacation")
                 {
                     StartActivity(new Intent(Application.Context, typeof(NextVacations_Activity)));
-
+                }
+                else if (e.Item.TitleFormatted.ToString() == "Contact")
+                {
+                    StartActivity(new Intent(Application.Context, typeof(ContactActivity)));
                 }
             };
 
@@ -69,6 +78,11 @@ namespace _Kiyoung_CSD3184_Assignment
             var t = tableItems[e.Position];
             Android.Widget.Toast.MakeText(this, t.Heading, Android.Widget.ToastLength.Short).Show();
             Console.WriteLine("Clicked on " + t.Heading);
+
+            var countryInfoactivity = new Intent(this, typeof(CountryInfoActivity));
+            countryInfoactivity.PutExtra("city_name", t.Heading);
+            StartActivity(countryInfoactivity);
+
         }
 
 

@@ -53,7 +53,7 @@
                     android:paddingTop="20dp"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    android:text="Kiyoung Park, who want to be a traveler to study the diversity of culture from all around the world." />
+                    android:text="Kiyoung Park, who wants to be a traveler to study the diversity of culture from all around the world." />
             </LinearLayout>
         </LinearLayout>
         <LinearLayout

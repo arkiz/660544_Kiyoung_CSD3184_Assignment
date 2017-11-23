@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?> 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
  <item
-      android:id="@+id/menu_share"
+      android:id="@+id/home"
       android:icon="@drawable/icon_travel_globe"
       android:showAsAction="ifRoom"
-      android:title="Menu" />
+      android:title="home" />
  <item
       android:id="@+id/visited_countries"
       android:showAsAction="always"
@@ -13,4 +13,8 @@
       android:id="@+id/next_vacations"
       android:showAsAction="always"
       android:title="Next Vacation"/>
+ <item
+      android:id="@+id/contact"
+      android:showAsAction="always"
+      android:title="Contact"/>
 </menu>

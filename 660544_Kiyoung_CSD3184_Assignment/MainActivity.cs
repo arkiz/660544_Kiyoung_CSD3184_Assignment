@@ -36,10 +36,12 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Content.PM;
 
 namespace _Kiyoung_CSD3184_Assignment
 {
-    [Activity(Label = "Travel_blog")]
+    [Activity(Label = "Travel_blog",
+              LaunchMode = LaunchMode.SingleInstance)]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -60,12 +62,15 @@ namespace _Kiyoung_CSD3184_Assignment
             toolbar.InflateMenu(Resource.Menu.home);
             toolbar.MenuItemClick += (sender, e) => {
                 Toast.MakeText(this, e.Item.TitleFormatted.ToString(), ToastLength.Short).Show();
-            
-                if(e.Item.TitleFormatted.ToString() == "Visited Countries") {
-                    StartActivity(new Intent(Application.Context, typeof(VisitedCountries_Activity)));
-                } else if ( e.Item.TitleFormatted.ToString() == "Next Vacation"){
-                    StartActivity(new Intent(Application.Context, typeof(NextVacations_Activity)));
 
+                if (e.Item.TitleFormatted.ToString() == "home") {
+                    StartActivity(new Intent(Application.Context, typeof(MainActivity)));
+                } else if (e.Item.TitleFormatted.ToString() == "Visited Countries") {
+                    StartActivity(new Intent(Application.Context, typeof(VisitedCountries_Activity)));
+                } else if (e.Item.TitleFormatted.ToString() == "Next Vacation") {
+                    StartActivity(new Intent(Application.Context, typeof(NextVacations_Activity)));
+                } else if (e.Item.TitleFormatted.ToString() == "Contact") {
+                    StartActivity(new Intent(Application.Context, typeof(ContactActivity)));
                 }
             };
 
@@ -84,11 +89,11 @@ namespace _Kiyoung_CSD3184_Assignment
             return base.OnCreateOptionsMenu(menu);
         }
 
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            Toast.MakeText(this, "Top ActionBar pressed: " + item.TitleFormatted, ToastLength.Short).Show();
-            return base.OnOptionsItemSelected(item);
-        }
+        //public override bool OnOptionsItemSelected(IMenuItem item)
+        //{
+        //    Toast.MakeText(this, "Top ActionBar pressed: " + item.TitleFormatted, ToastLength.Short).Show();
+        //    return base.OnOptionsItemSelected(item);
+        //}
     }
 }
 
